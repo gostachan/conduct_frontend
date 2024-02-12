@@ -11,6 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="stylesheet" href="//demo.productionready.io/main.css" />
       <body className={inter.className}>{children}</body>
     </html>
   );
